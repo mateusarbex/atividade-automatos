@@ -38,7 +38,7 @@ function initAutomato() {
 }
 
 function validate(word) {
-  let currentState = automato[0];
+  let currentState = automato.find((state) => state.inital);
   const formatted = formatWord(word);
 
   automato.find((state, index) => {
