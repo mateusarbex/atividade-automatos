@@ -14,7 +14,7 @@ function setBlackListToNDFA(word) {
 
 //substituição de digitos para letras
 function formatWord(word) {
-  const digitMatch = new RegExp(/[01357]+/g);
+  const digitMatch = new RegExp(/[013457]+/g);
 
   if (digitMatch.test(word)) {
     const digits = word.match(digitMatch);
