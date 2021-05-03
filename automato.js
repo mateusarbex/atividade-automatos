@@ -28,7 +28,7 @@ function setBlackListToNDFA(word) {
 //Utiliza o regex /[01357]+/ para selecionar os números que se enquandram no enum digitsEnum
 //Para cada match do regex, utiliza-se a função replace do javascript para trocar o numéro pelo caractere do enum
 function formatWord(word) {
-  const digitMatch = new RegExp(/[01357]+/g);
+  const digitMatch = new RegExp(/[013457]+/g);
 
   if (digitMatch.test(word)) {
     const digits = word.match(digitMatch);
