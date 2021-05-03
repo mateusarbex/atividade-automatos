@@ -8,6 +8,6 @@ Requerimentos para executar o código:
 
 Como funciona:
 
-O arquivo blacklist.txt contém todas as palavras que não devem ser inclusas na senha
-O arquivo senhas.txt contém todas as senhas a serem testadas
+O arquivo blacklist.txt contém todas as palavras que não devem ser inclusas na senha.
+O arquivo senhas.txt contém todas as senhas a serem testadas.
 Para fazer o teste em runtime, utilize o comando node automato.js para rodar o código
